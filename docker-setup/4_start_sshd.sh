@@ -1,3 +1,5 @@
+#!/bin/bash
+
 SSH_PORT=2222
 
 cat /etc/ssh/sshd_config > sshd_config
