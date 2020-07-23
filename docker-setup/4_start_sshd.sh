@@ -7,3 +7,5 @@ sed -i "0,/^Port [0-9]\+/s//Port ${SSH_PORT}/" sshd_config
 sudo cp sshd_config /etc/ssh/sshd_config
 
 sudo service ssh start
+sleep 1
+sudo service ssh status
